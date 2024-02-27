@@ -1,0 +1,106 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 36px;
+    top: 15px;
+  /*border: 2px solid rgb(0, 0, 0);*/
+}
+
+.mid {
+    display: block;
+    width: 30%;
+    margin: 10px auto;
+
+   /*border: 2px solid blue;*/
+
+}
+
+.left img {
+    width: 105px;
+   filter: invert(100%);
+
+
+}
+
+.left div { 
+    font-size: 18px;
+    line-height: 15px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.right {
+    position: absolute;
+    right: 22px;
+    top: 10px;
+    display: inline-block;
+    /*border: 2px solid black;*/
+}
+
+.nav {
+    display: inline-block;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px;
+}
+
+.nav li a:hover,
+.nav li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.bts {
+    background-color: rgb(68, 54, 54);
+    color: white;
+    padding: 5px;
+    margin: 3px 3px;
+    border: 2px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.bts:hover {
+    background-color: rgb(27, 26, 26);
+}
+.container{
+ border: 3px solid rgb(255, 255, 255);
+ width: 40%;
+ display: block;
+ margin: 150px 65px;
+ padding:13px 11px;
+ border-radius: 30px;
+ color: rgb(99, 94, 94);
+}
+.groupform input{
+    text-align: center;
+    font-size: 11px;
+    display: block;
+    width: 45%;
+  padding: 3px;
+  margin: 3px auto;
+  border-radius: 15px;
+}
+.container h2{
+    text-align: center;
+}
+.container button{
+margin: auto;
+display: block;
+width: 60px;
+}
